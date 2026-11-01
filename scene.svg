@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Repair bench from above: a ribbon feeds slowly from its spool across the bench while a typebar cluster strikes at the far right">
+<rect width="1200" height="340" fill="#4a3826"/>
+<!-- far band: shelf silhouettes and dust sheet humps, still -->
+<g fill="#3a2c1e">
+<rect x="30" y="6" width="1140" height="16"/>
+<path d="M80,86 a70,34 0 0 1 140,0 z" fill="#57493a"/>
+<path d="M330,86 a80,38 0 0 1 160,0 z" fill="#514335"/>
+<path d="M620,86 a70,34 0 0 1 140,0 z" fill="#57493a"/>
+<path d="M880,86 a80,38 0 0 1 160,0 z" fill="#4e4033"/>
+</g>
+<!-- bench surface -->
+<rect y="96" width="1200" height="244" fill="#7a5a3a"/>
+<g stroke="#5f452c" stroke-width="1"><line x1="0" y1="140" x2="1200" y2="132"/><line x1="0" y1="200" x2="1200" y2="194"/><line x1="0" y1="262" x2="1200" y2="258"/><line x1="0" y1="312" x2="1200" y2="310"/></g>
+<!-- lamp pool, breathing over 8s -->
+<ellipse cx="330" cy="215" rx="330" ry="105" fill="#ffc46e" opacity="0.14">
+<animate attributeName="opacity" values="0.10;0.18;0.10" dur="8s" repeatCount="indefinite"/>
+</ellipse>
+<!-- the ribbon: feeds from the spool toward the right edge over the 24s loop -->
+<g>
+<path d="M300,222 C520,238 760,214 980,230 L1240,224" stroke="#141212" stroke-width="17" fill="none"/>
+<path d="M300,230 C520,246 760,222 980,238 L1240,232" stroke="#9e2c26" stroke-width="7" fill="none"/>
+<animateTransform attributeName="transform" type="translate" values="0,0; -14,0; -14,0; 0,0" keyTimes="0;0.45;0.8;1" dur="24s" repeatCount="indefinite"/>
+</g>
+<!-- spool at left, rotating a quarter turn across the loop -->
+<g>
+<g>
+<circle cx="238" cy="216" r="86" fill="#a8a498"/>
+<circle cx="238" cy="216" r="66" fill="#171515"/>
+<path d="M238,150 A66,66 0 0 1 300,240" stroke="#9e2c26" stroke-width="13" fill="none"/>
+<circle cx="238" cy="216" r="17" fill="#4a4844"/>
+<line x1="238" y1="216" x2="238" y2="158" stroke="#8a877e" stroke-width="5"/>
+<animateTransform attributeName="transform" type="rotate" values="0 238 216; 90 238 216" dur="24s" repeatCount="indefinite"/>
+</g>
+<circle cx="238" cy="216" r="86" fill="none" stroke="#6e6c66" stroke-width="4"/>
+</g>
+<!-- the tin base ring around the spool -->
+<circle cx="238" cy="216" r="104" fill="none" stroke="#7e7c76" stroke-width="10"/>
+<!-- resting screw, nudged once per loop by the tweezer tip -->
+<g>
+<circle cx="520" cy="286" r="11" fill="#b2b4b8" stroke="#646468" stroke-width="2"/>
+<line x1="513" y1="286" x2="527" y2="286" stroke="#46464a" stroke-width="3"/>
+<animateTransform attributeName="transform" type="translate" values="0,0; 0,0; 3,0; 3,0" keyTimes="0;0.82;0.88;1" dur="24s" repeatCount="indefinite"/>
+</g>
+<g stroke="#c2c4c8" stroke-width="5">
+<line x1="540" y1="352" x2="524" y2="298"/>
+<animateTransform attributeName="transform" type="translate" values="0,30; 0,30; 0,0; 0,0; 0,30" keyTimes="0;0.8;0.86;0.92;1" dur="24s" repeatCount="indefinite"/>
+</g>
+<!-- typebar cluster at far right: three quick strikes once per loop -->
+<g stroke="#b9bcc0" stroke-width="5">
+<g>
+<line x1="1092" y1="262" x2="1064" y2="196"/><line x1="1118" y1="262" x2="1104" y2="192"/><line x1="1144" y1="262" x2="1146" y2="192"/>
+<animateTransform attributeName="transform" type="translate" values="0,14; 0,14; 0,0; 0,14; 0,0; 0,14; 0,0; 0,14; 0,14" keyTimes="0;0.52;0.56;0.60;0.64;0.68;0.72;0.8;1" dur="24s" repeatCount="indefinite"/>
+</g>
+<rect x="1052" y="258" width="130" height="18" fill="#2c2c30"/>
+</g>
+</svg>

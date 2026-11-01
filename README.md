@@ -1,14 +1,27 @@
-![Banner](banner.png)
+![Intro: a repair bench with one open ribbon tin, its loose end running off the frame](intro-banner.png)
+
 
 # Obsidian-Vault-Config
 
+![Banner](banner.png)
+
+![Scene](scene.svg)
+
+> **SOURCE** The mappings live in the dotfiles home. This vault holds the link, so there is no second copy here to drift out of step.
+
 An open source project by Epsilon0xCell.
+
+
+![Separator](sep-heavy.svg)
 
 ## What is in this repo
 
 - `.obsidian.vimrc`, a symlink, not a copy
 - LICENSE
 - This README, plus the branding images
+
+
+![Separator](sep-light.svg)
 
 ## Why this repo looks almost empty
 
